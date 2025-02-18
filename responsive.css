@@ -1,0 +1,21 @@
+@media (max-width:768px) {
+    #sidebar {
+        display: none !important;
+    }
+
+    #main-content {
+        margin-left: 0 !important;
+    }
+
+    .grid-layout {
+        display: block !important;
+    }
+
+    .footer-section {
+        display: block !important;
+    }
+
+    .contact-section {
+        padding: 32px 24px;
+    }
+}

@@ -1,0 +1,279 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Raleway", serif;
+    background-color: #f1f1f1 !important;
+}
+
+#main {
+    max-width: 1600px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#sidebar {
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    text-align: center;
+    background-color: #fff;
+    width: 300px;
+    height: 100vh;
+
+}
+
+#sidebar .sidebar-title {
+    margin: 10px 0;
+    padding: 64px 0;
+    font-size: 24px;
+    color: #757575;
+    line-height: 36px;
+}
+
+#sidebar .title-text {
+    font-weight: 600 !important;
+}
+
+#sidebar .sidebar-link {
+    font-weight: 700;
+    display: block;
+    width: 100%;
+    padding: 8px 16px;
+    color: #757575;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+#sidebar .sidebar-link:hover {
+    background-color: #ccc;
+    color: #000;
+}
+
+
+
+/* main-contet */
+
+
+#main-content {
+    margin-left: 300px;
+}
+
+#main-content .grid-layout {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+#main-content .gallery-image {
+    display: block;
+    opacity: 0.7;
+    width: 100%;
+    cursor: pointer;
+}
+
+#main-content .gallery-image:hover {
+    opacity: 1;
+}
+
+#main-content .pagination-page {
+    padding: 32px 0;
+    text-align: center;
+}
+
+.pagination-page .page {
+    padding: 8px 16px;
+    text-decoration: none;
+    color: #000;
+    font-size: 15px;
+    display: inline-block;
+    margin-right: -4px;
+    /* Loại bỏ khoảng cách */
+}
+
+.font-size-15 {
+    font-size: 15px !important;
+}
+
+.bg-color-black {
+    background-color: #000 !important;
+}
+
+.color-white {
+    color: #fff !important;
+}
+
+.margin-15-t-bt {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.hover-bg-gray-color-black:hover {
+    background-color: #ccc !important;
+    color: #000 !important;
+}
+
+.pagination-page .page:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+
+
+
+/* contact-section */
+
+.contact-section {
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.contact-title {
+    margin: 10px;
+    font-size: 20px;
+}
+
+.form-box {
+    margin: 16px 0;
+}
+
+.form-input {
+    padding: 8px;
+    width: 100%;
+}
+
+.send-btn {
+    background-color: #000;
+    width: 100%;
+    color: #fff;
+    padding: 8px 16px;
+    margin-bottom: 16px;
+    cursor: pointer;
+    border: none;
+
+}
+
+.send-btn:hover {
+    background-color: #ccc;
+    color: #000;
+}
+
+/* footer */
+
+
+.footer {
+    padding: 32px 16px;
+    background-color: rgb(158, 158, 158);
+
+}
+
+.footer-section {
+    display: grid;
+    grid-template-columns: repeat(3, 33.33333%);
+}
+
+.margin-10-t-bt {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.text-description {
+    line-height: 22.5px;
+    font-size: 15px;
+}
+
+.text-title {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.padding-8-l-r {
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.item {
+    list-style: none;
+    display: flex;
+    padding: 16px;
+}
+
+.item:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #eee;
+}
+
+.height-center {
+    line-height: 25px;
+}
+
+.image-post {
+    height: 50px;
+    width: 50px;
+    margin: 0 10px;
+}
+
+
+.tag-special {
+    font-size: 15px !important;
+    color: #fff !important;
+    background-color: #000 !important;
+    padding: 0 8px !important;
+    margin-bottom: 16px !important;
+}
+
+.tag {
+    color: #fff;
+    padding: 2px 8px;
+    margin-bottom: 16px;
+    display: inline-block;
+    background-color: #616161;
+    font-size: 12px;
+}
+
+.footer-author {
+    text-align: center;
+    background-color: #000;
+}
+
+.author {
+    padding: 24px 0;
+    color: #fff;
+}
+
+
+
+/* about */
+
+
+.content-about {
+    background-color: rgb(97, 97, 97);
+    text-align: center;
+}
+
+.about-image {
+    max-width: 600px;
+    width: 100%;
+
+}
+
+.about-section {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.about-description {
+    text-align: justify;
+}
