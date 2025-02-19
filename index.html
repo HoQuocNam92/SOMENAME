@@ -4,9 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     <link rel="stylesheet" href="responsive.css">
@@ -16,6 +14,11 @@
 
 <body>
     <div id="main">
+        <div id="overlay"></div>
+        <div id="header">
+            <span>SOME NAME</span>
+            <a class="bars" href="#"><i class="fa-solid fa-bars"></i></a>
+        </div>
         <div id="sidebar">
             <br>
             <h3 class="sidebar-title">
@@ -46,6 +49,91 @@
                 <a class="page" href="">4</a>
                 <a class="page" href=""><i class=" font-size-15 fa-solid fa-arrow-right"></i></a>
             </div>
+
+            <div class="content-about text-center">
+                <h4 class="text-about size-20-bg-white margin-10-t-bt ">
+                    <b>About</b>
+                </h4>
+                <img src="./images/avatar_hat (3).jpg" alt="" class="about-image ">
+                <div class="about-section">
+                    <h4 class="name-about size-20-bg-white margin-10-t-bt text-start  font-weight ">My Name</h4>
+                    <p class="about-description   color-white margin-15-t-bt font-size-15 line-height-22-5 ">
+                        Some text about me. I love taking photos of PEOPLE. I am lorem ipsum consectetur adipiscing
+                        elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+                        aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                        mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        laboris nisi ut aliquip ex ea commodo consequat.
+
+
+                    </p>
+                    <p class="text-start color-white margin-15-t-bt font-size-15 ">mail: example@example.com
+                    </p>
+                    <p class="text-start color-white margin-15-t-bt font-size-15 ">tel: 5353 35531
+                    </p>
+                    <hr>
+                    <br>
+                    <div class="skills text-start ">
+                        <h4 class="skills-title size-20-bg-white margin-10-t-bt font-weight">Technical Skills
+                        </h4>
+                        <p class="skill-name margin-15-t-bt font-size-15">Photography</p>
+                        <div class="skill-status">
+                            <div class="skill-progress width-95 text-center">95%</div>
+                        </div>
+                        <p class="skill-name margin-15-t-bt font-size-15">Web Design
+                        </p>
+                        <div class="skill-status c ">
+                            <div class="skill-progress width-85 text-center">85%</div>
+                        </div>
+                        <p class="skill-name margin-15-t-bt font-size-15"> Photoshop
+                        </p>
+                        <div class="skill-status">
+                            <div class="skill-progress width-80  text-center ">80%</div>
+                        </div>
+                        <p class="dowload-resume margin-15-t-bt">
+                            <button class="dowload-resume-btn">Dowload Resume</button>
+                        </p>
+                    </div>
+                    <div class="charge-option">
+                        <div class="optiton">
+                            <ul class="list-option bg-color-white-opacity margin-10-r-l">
+                                <li class="padding-32-16 font-size-24 bg-color-black color-white ">Basic</li>
+                                <li>Web Design
+                                </li>
+                                <li>Photography</li>
+                                <li>5GB Storage
+
+                                <li>Mail Support
+                                </li>
+                                <li>
+                                    <h2>$ 10</h2>
+                                    <span> per month</span>
+                                </li>
+                                <li><button class="font-size-15 padding-12-24">Sign Up</button></li>
+                            </ul>
+                            <ul class="list-option bg-color-white-opacity  margin-10-r-l ">
+                                <li class="padding-32-16  font-size-24 bg-color-black color-white">Pro
+                                </li>
+                                <li>Web Design
+                                </li>
+                                <li>Photography</li>
+                                <li>5GB Storage
+
+                                <li>Endless Support
+                                </li>
+                                <li>
+                                    <h2>$ 25 </h2>
+                                    <span> per month</span>
+                                </li>
+                                <li><button class="font-size-15 padding-12-24">Sign Up</button></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
             <div class="contact-section">
                 <h4 class="contact-title text-center"><b>Contact Me</b></h4>
                 <p class="contact-description margin-15-t-bt font-size-15   ">Do you want me to photograph
@@ -69,55 +157,6 @@
                         <button type="submit" class="send-btn">Send Message</button>
                     </div>
                 </form>
-            </div>
-            <div class="content-about">
-                <h4 class="text-about">
-                    <b>About</b>
-                </h4>
-                <img src="./images/avatar_hat (3).jpg" alt="" class="about-image">
-                <div class="about-section">
-                    <h4 class="name-about">My Name</h4>
-                    <p class="about-description">
-                        Some text about me. I love taking photos of PEOPLE. I am lorem ipsum consectetur adipiscing
-                        elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-                        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-                        dolor
-                        in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                        occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
-                        consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                        Ut
-                        enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                        consequat.
-                    </p>
-                    <p>mail: example@example.com
-
-                    </p>
-                    <p>tel: 5353 35531
-
-                    </p>
-                    <hr>
-                    <div class="skills">
-                        <h4 class="skills-title">SKILLS</h4>
-                        <p class="skill-name"></p>
-                        <div class="skill-status">
-                            <div class="skill-progress"></div>
-                        </div>
-                        <p class="skill-name"></p>
-                        <div class="skill-status">
-                            <div class="skill-progress"></div>
-                        </div>
-                        <p class="skill-name"></p>
-                        <div class="skill-status">
-                            <div class="skill-progress"></div>
-                        </div>
-                        <p class="dowload-resume">
-                            <button class="dowload-resume-btn"></button>
-                        </p>
-                    </div>
-
-                </div>
-
             </div>
             <!-- footer -->
             <div class="footer">
@@ -173,6 +212,7 @@
                 <p class="author">Powered by Nam Coder</p>
             </div>
         </div>
+        <script src="./main.js"></script>
     </div>
 </body>
 

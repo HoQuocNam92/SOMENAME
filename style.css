@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: "Raleway", serif;
+    font-family: "Raleway", sans-serif;
     background-color: #f1f1f1 !important;
 }
 
@@ -13,6 +13,11 @@ body {
     max-width: 1600px;
     width: 100%;
     margin: 0 auto;
+}
+
+#header,
+#overlay {
+    display: none;
 }
 
 #sidebar {
@@ -218,6 +223,12 @@ body {
     line-height: 25px;
 }
 
+.line-height-22-5 {
+    line-height: 22.5px;
+    text-align: justify;
+    hyphens: auto;
+}
+
 .image-post {
     height: 50px;
     width: 50px;
@@ -259,13 +270,12 @@ body {
 
 .content-about {
     background-color: rgb(97, 97, 97);
-    text-align: center;
 }
 
 .about-image {
     max-width: 600px;
     width: 100%;
-
+    padding: 32px 0;
 }
 
 .about-section {
@@ -276,4 +286,111 @@ body {
 
 .about-description {
     text-align: justify;
+}
+
+.content-about {
+    padding: 32px 16px;
+}
+
+
+.size-20-bg-white {
+    font-size: 20px;
+    color: #fff;
+}
+
+.text-start {
+    text-align: start;
+}
+
+.font-weight {
+    font-weight: 400;
+}
+
+.skills-title {
+    padding: 16px 0;
+    display: inline-block;
+}
+
+.skill-name {
+    letter-spacing: 4px;
+}
+
+.skill-status {
+    background-color: #fff;
+}
+
+.skill-progress {
+    background-color: #9e9e9e;
+    padding: 4px 8px;
+}
+
+.width-95 {
+    width: 95%;
+}
+
+.width-85 {
+    width: 85%;
+}
+
+.width-80 {
+    width: 80%;
+}
+
+.dowload-resume-btn {
+    padding: 12px 24px;
+    margin: 16px 0;
+    background-color: #fff;
+    color: #000;
+    border: none;
+    cursor: pointer;
+}
+
+.dowload-resume-btn:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+.charge-option .optiton {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.charge-option .list-option {
+    list-style: none;
+
+}
+
+.list-option li {
+    padding: 16px;
+    border-top: 1px solid rgb(221, 221, 221);
+    border-bottom: 1px solid rgb(221, 221, 221);
+}
+
+.padding-32-16 {
+    padding: 32px 16px !important;
+}
+
+.font-size-24 {
+    font-size: 24px;
+}
+
+.bg-color-white-opacity {
+    background-color: #fff;
+    opacity: 0.5;
+
+}
+
+.bg-color-white-opacity:hover {
+    opacity: 1;
+}
+
+.margin-10-r-l {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.padding-12-24 {
+    padding: 12px 24px;
+    border: none;
 }

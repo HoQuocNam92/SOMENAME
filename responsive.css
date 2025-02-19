@@ -1,7 +1,5 @@
 @media (max-width:768px) {
-    #sidebar {
-        display: none !important;
-    }
+
 
     #main-content {
         margin-left: 0 !important;
@@ -17,5 +15,54 @@
 
     .contact-section {
         padding: 32px 24px;
+    }
+
+    .charge-option .optiton {
+        display: block !important;
+    }
+
+    #header {
+        display: block !important;
+        padding: 16px;
+    }
+
+    #header span {
+        font-size: 24px;
+        padding: 8px 16px !important;
+    }
+
+    #header a {
+        float: right;
+        padding: 4px 8px;
+        font-size: 22px;
+    }
+
+    #header a:hover {
+        background-color: #000;
+        color: #fff;
+    }
+
+    .active {
+        display: block !important;
+        transform: translateX(0) !important;
+        transition: transform 0.3s linear !important;
+    }
+
+    #sidebar {
+        z-index: 1000 !important;
+        transform: translateX(-300px);
+
+    }
+
+
+
+    #overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0.5);
+        z-index: 999;
     }
 }
